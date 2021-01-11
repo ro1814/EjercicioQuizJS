@@ -15,8 +15,8 @@ username.addEventListener('keyup', () => {
  });
 
  saveHighScore = e => {
-   //  console.log("Clicked the save button!");
-   //  e.preventDefault();
+    console.log("Clicked the save button!");
+    e.preventDefault();
 
     const score = {
        score: Math.floor(Math.random() * 100),
@@ -51,30 +51,30 @@ username.addEventListener('keyup', () => {
 
   //Operaciones con BDD
 
-  function escribir(){
-    db.collection("users").add({
-        username: `${username}`,
-        higscore: `${highScores}`,
-    })
-    .then(function(docRef) {
-        console.log("Document written with ID: ", docRef.id);
-    })
-    .catch(function(error) {
-        console.error("Error adding document: ", error);
-    });
-  }
+  // function escribir(){
+  //   db.collection("users").add({
+  //       username: `${username}`,
+  //       higscore: `${highScores}`,
+  //   })
+  //   .then(function(docRef) {
+  //       console.log("Document written with ID: ", docRef.id);
+  //   })
+  //   .catch(function(error) {
+  //       console.error("Error adding document: ", error);
+  //   });
+  // }
 
-  function leer(){
-    db.collection("users").get().then((querySnapshot) => {
-        console.log(querySnapshot);
-        querySnapshot.forEach((doc) => {
-            console.log(doc.data());
-            console.log(`${doc.id} => ${doc.data()}`);
-        });
-    });
-  }
+  // function leer(){
+  //   db.collection("users").get().then((querySnapshot) => {
+  //       console.log(querySnapshot);
+  //       querySnapshot.forEach((doc) => {
+  //           console.log(doc.data());
+  //           console.log(`${doc.id} => ${doc.data()}`);
+  //       });
+  //   });
+  // }
 
-  db.collection("users").doc("TT3iGW74b0Hx1Yj4UDYE")
-    .onSnapshot(function(doc) {
-        console.log("Current data: ", doc.data());
-    });
+  // db.collection("users").doc("TT3iGW74b0Hx1Yj4UDYE")
+  //   .onSnapshot(function(doc) {
+  //       console.log("Current data: ", doc.data());
+  //   });
