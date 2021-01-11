@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What does 'hippopotamus' mean and in what language?",
+        "choice1": "River Horse (Greek)",
+        "choice2": "River Horse (Latin)",
+        "choice3": "Fat Pig (Greek)",
+        "choice4": "Fat Pig (Latin)",
+        "answer": 1
+    },
+    {
+        "question": "What is the scientific name for the 'Polar Bear'?",
+        "choice1": "Polar Bear",
+        "choice2": "Ursus Speleaeus",
+        "choice3": "Ursus Ardos",
+        "choice4": "Ursus Maritimus",
+        "answer": 4
+    },
+    {
+        "question": "Which animal was part of an Russian domestication experiment in 1959?",
+        "choice1": "Pigeons",
+        "choice2": "Foxes",
+        "choice3": "Bears",
+        "choice4": "Alligators",
+        "answer": 2
+    },
+    {
+        "question": "What is the name of the family that the domestic cat is a member of?",
+        "choice1": "Cat",
+        "choice2": "Felinae",
+        "choice3": "Felidae",
+        "choice4": "Felis",
+        "answer": 3
+    },
+    {
+        "question": "What is the fastest animal?",
+        "choice1": "Peregrine Falcon",
+        "choice2": "Golden Eagle",
+        "choice3": "Cheetah",
+        "choice4": "Horsefly",
+        "answer": 1
+    }
+]
