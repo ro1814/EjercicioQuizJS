@@ -33,21 +33,21 @@ username.addEventListener('keyup', () => {
  };
 
   // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyAiFU4qMEsxVzEZvhqXt-lPeCgfyUglf5c",
-    authDomain: "pruebafirebase-d8b48.firebaseapp.com",
-    projectId: "pruebafirebase-d8b48",
-    storageBucket: "pruebafirebase-d8b48.appspot.com",
-    messagingSenderId: "1047351380530",
-    appId: "1:1047351380530:web:6f43e58c70f10716b24a2b"
-  };
+  // var firebaseConfig = {
+  //   apiKey: "AIzaSyAiFU4qMEsxVzEZvhqXt-lPeCgfyUglf5c",
+  //   authDomain: "pruebafirebase-d8b48.firebaseapp.com",
+  //   projectId: "pruebafirebase-d8b48",
+  //   storageBucket: "pruebafirebase-d8b48.appspot.com",
+  //   messagingSenderId: "1047351380530",
+  //   appId: "1:1047351380530:web:6f43e58c70f10716b24a2b"
+  // };
   
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  // firebase.initializeApp(firebaseConfig);
 
-  //Conecta con BDD. De vuelve el objeto BDD
+  // //Conecta con BDD. De vuelve el objeto BDD
 
-  var db = firebase.firestore();
+  // var db = firebase.firestore();
 
   //Operaciones con BDD
 
